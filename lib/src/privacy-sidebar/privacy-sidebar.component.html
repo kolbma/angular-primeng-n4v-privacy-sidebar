@@ -1,0 +1,19 @@
+<div class="n4v-ui-privacy-sidebar{{customClass}}">
+  <p-sidebar [(visible)]="visible" styleClass="n4v-ui-privacy-sidebar ui-sidebar-sm{{customClass}}" position="bottom">
+    <div class="n4v-ui-privacy-sidebar-header{{customClass}}" [innerHtml]="sidebarHeader"></div>
+    <div class="n4v-ui-privacy-sidebar-content{{customClass}}" [innerHtml]="sidebarContent">
+    </div>
+    <div class="n4v-ui-privacy-sidebar-footer {{customClass}}">
+      <ul class="n4v-ui-privacy-sidebar-button-strip{{customClass}}">
+        <li [innerHTML]="sidebarFooter">
+        </li>
+        <li>
+          <button pButton type="button" label="{{acceptCookies}}" (click)="onClick($event, 'accept')" class="n4v-ui-button-highlight{{customClass}}"></button>
+        </li>
+        <li>
+          <button pButton type="button" label="{{declineCookies}}" (click)="onClick($event, 'decline')" class="ui-button-secondary{{customClass}}"></button>
+        </li>
+      </ul>
+    </div>
+  </p-sidebar>
+</div>

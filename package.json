@@ -1,0 +1,104 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "./lib/index.ts",
+      "languageLevel": [
+        "dom",
+        "es2017"
+      ],
+      "comments": "none",
+      "licensePath": "./LICENSE",
+      "externals": {
+        "primeng/primeng": "primeng"
+      },
+      "umdModuleIds": {
+        "primeng/sidebar": "Sidebar"
+      },
+      "build": {
+        "preserveSymlinks": true
+      }
+    }
+  },
+  "name": "n4v-privacy-sidebar",
+  "version": "0.0.1",
+  "description": "An Angular module with a privacy sidebar component based on PrimeNG siderbar.",
+  "main": "./demo/main.ts",
+  "module": "./lib/index.ts",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "ng": "npx ng",
+    "start": "npx ng serve",
+    "build": "npx ng build --prod",
+    "test": "npx ng test",
+    "lint": "npx ng lint",
+    "e2e": "npx ng e2e",
+    "packagr": "npx ng-packagr -p package.json",
+    "release": "npx standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolbma/angular-primeng-n4v-privacy-sidebar.git"
+  },
+  "keywords": [
+    "angular",
+    "ng",
+    "primeng",
+    "sidebar",
+    "privacy",
+    "cookie",
+    "n4v"
+  ],
+  "author": {
+    "name": "Markus Kolb",
+    "email": "markus.kolb+npm@tower-net.de"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolbma/angular-primeng-n4v-privacy-sidebar/issues"
+  },
+  "homepage": "https://github.com/kolbma/angular-primeng-n4v-privacy-sidebar#readme",
+  "devDependencies": {
+    "@angular/animations": "^4.0.0 || ^5.0.0",
+    "@angular/cli": "1.7.4",
+    "@angular/common": "^4.0.0 || ^5.0.0",
+    "@angular/compiler": "^4.0.0 || ^5.0.0",
+    "@angular/compiler-cli": "^4.0.0 || ^5.0.0",
+    "@angular/core": "^4.0.0 || ^5.0.0",
+    "@angular/language-service": "^4.0.0 || ^5.0.0",
+    "@angular/platform-browser": "^4.0.0 || ^5.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0 || ^5.0.0",
+    "@angular/router": "^4.0.0 || ^5.0.0",
+    "@types/jasmine": "~2.8.3",
+    "@types/jasminewd2": "~2.0.2",
+    "@types/node": "~6.0.60",
+    "ajv": "^6.4.0",
+    "codelyzer": "^4.0.1",
+    "core-js": "^2.4.1",
+    "jasmine-core": "~2.8.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~2.0.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^2.4.2",
+    "nsp": "^3.2.1",
+    "primeng": "^5.0.0",
+    "protractor": "~5.1.2",
+    "rollup": "^0.57.1",
+    "rxjs": "^5.5.6",
+    "standard-version": "^4.3.0",
+    "tslint": "~5.9.1",
+    "typescript": "~2.5.3",
+    "webpack": "^3.11.0",
+    "zone.js": "^0.8.19"
+  },
+  "peerDependencies": {
+    "@angular/animations": "^4.0.0 || ^5.0.0",
+    "@angular/common": "^4.0.0 || ^5.0.0",
+    "@angular/core": "^4.0.0 || ^5.0.0",
+    "primeng": "^5.0.0"
+  },
+  "dependencies": {}
+}

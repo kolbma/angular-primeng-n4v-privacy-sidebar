@@ -1,0 +1,8 @@
+{
+  "header": "Confirmation for Cookie Usage",
+  "content": "Cookies are important to the proper functioning of a site. To improve your experience, we use cookies to remember log-in details and provide secure log-in, collect statistics to optimize site functionality, and deliver content tailored to your interests. Click \"Accept cookies\" to go directly to the site.",
+  "footer": "I confirm {{LINK}}Privacy Policy{{LINK}} and",
+  "accept": "Accept cookies",
+  "decline": "Decline cookies",
+  "url": "/privacy"
+}

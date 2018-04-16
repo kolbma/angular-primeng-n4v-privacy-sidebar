@@ -1,0 +1,8 @@
+{
+  "header": "Einverständnis zur Verwendung von Cookies",
+  "content": "Cookies sind für die korrekte Funktionsweise einer Website wichtig. Um Ihnen eine angenehmere Erfahrung zu bieten, nutzen wir Cookies zum Speichern Ihrer Anmeldedaten, um für sichere Anmeldung zu sorgen, um statistische Daten zur Optimierung der Website-Funktionen zu erheben und um Ihnen Inhalt bereitzustellen, der auf Ihre Interessen zugeschnitten ist. Klicken Sie auf „Akzeptiere Cookies“, um Cookies zu akzeptieren und direkt zur Website weiter zu navigieren.",
+  "footer": "Ich bin mit der {{LINK}}Datenschutzerklärung einverstanden{{LINK}} und",
+  "accept": "Akzeptiere Cookies",
+  "decline": "Lehne Cookies ab",
+  "url": "/privacy"
+}

@@ -1,0 +1,77 @@
+.ui-sidebar.n4v-ui-privacy-sidebar .ui-sidebar-close {
+  display: none;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar {
+  font-size: 0.8rem;
+  height: auto;
+  background-color: #333333;
+  color: #f2f2f2;
+  padding: 0;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-privacy-sidebar-header {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  background-color: #333333;
+  padding: 0.4rem;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-privacy-sidebar-content {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-privacy-sidebar-footer {
+  background-color: #333333;
+  color: #f2f2f2;
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-privacy-sidebar-button-strip {
+  font-size: 0.9rem;
+  list-style: none;
+  text-align: right;
+  line-height: 1.2rem;
+  margin: auto;
+  width: 100%;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-privacy-sidebar-button-strip a {
+  color: #c42920;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-privacy-sidebar-button-strip a:hover {
+  color: #3e4e65;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-privacy-sidebar-button-strip>li {
+  list-style: none;
+  display: inline;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-button-highlight {
+  background-color: #f1d600;
+  border-color: #f1d600;
+  color: #333333;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-button-highlight:hover {
+  background-color: #e1a600;
+  border-color: #e1a600;
+  color: #333333;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-privacy-sidebar-button-strip>li:first-child {
+  padding-right: 0.4rem;
+}
+
+.ui-sidebar.n4v-ui-privacy-sidebar .n4v-ui-privacy-sidebar-button-strip>li:last-child {
+  padding-right: 2em;
+}
+
+.ui-widget-overlay.ui-sidebar-mask {
+  display: none;
+}
