@@ -21,7 +21,7 @@
     }
   },
   "name": "n4v-privacy-sidebar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Angular module with a privacy sidebar component based on PrimeNG siderbar.",
   "main": "./demo/main.ts",
   "module": "./lib/index.ts",
