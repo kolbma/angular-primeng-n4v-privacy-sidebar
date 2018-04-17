@@ -5,9 +5,6 @@ import { TeardownLogic } from 'rxjs/Subscription';
 /**
  * CookieService is Injectable and can be used to react on cookie accept or decline.
  * Subscribe your Observer object.
- *
- * @export
- * @class CookieService
  */
 @Injectable()
 export class CookieService {
@@ -25,7 +22,6 @@ export class CookieService {
   /**
    * Close privacy-sidebar after user has clicked a button. Default is true.
    *
-   * @type {boolean}
    * @memberof CookieService
    */
   get closeOnClick(): boolean {
@@ -39,7 +35,6 @@ export class CookieService {
   /**
    * Close privacy-sidebar after user has clicked accept button. Default is true.
    *
-   * @type {boolean}
    * @memberof CookieService
    */
   get closeOnAccept(): boolean {

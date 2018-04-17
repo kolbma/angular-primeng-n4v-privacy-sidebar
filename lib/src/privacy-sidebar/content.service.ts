@@ -6,9 +6,6 @@ import { HttpClient } from '@angular/common/http';
  * It is responsible for retrieving the JSON file best matching the users browser language.
  * The filenames are lowercase based on the locale (e.g. en.json or en-us.json or en_us.json).
  * They are looked for in the ContentService.ASSETS_DIR.
- *
- * @export
- * @class ContentService
  */
 @Injectable()
 export class ContentService {

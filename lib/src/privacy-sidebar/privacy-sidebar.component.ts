@@ -22,9 +22,6 @@ import { CookieService } from './cookie.service';
  *
  * declineCookies: provide a fixed button label
  *
- * @export
- * @class PrivacySidebarComponent
- * @implements {OnInit}
  */
 @Component({
   selector: 'n4v-privacy-sidebar',
